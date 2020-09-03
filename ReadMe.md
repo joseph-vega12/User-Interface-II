@@ -6,7 +6,7 @@ The module challenge is the afternoon project or assignment that students work t
 
 ## Objectives
 
-- implement a CSS reset and understand why it’s important for cross-browser development
+- implement a CSS reset and understand why it’s important for cross-browser development 
 - identify and explain all properties in the box model
 - describe and understand that flexbox is a module
 - demonstrate understanding of flex container properties in flex box
@@ -23,10 +23,10 @@ Portfolio websites are a great way to show off your work to friends, family, and
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Create a forked copy of this project. ✅
+- [ ] Add your Team Lead as collaborator on Github. ✅
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!). ✅
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`. ✅
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
