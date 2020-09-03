@@ -1,20 +1,78 @@
-
-    
 * {
+	border: 1px solid black; 
+
 	box-sizing: border-box;
 	text-decoration: none;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+p,
+a {
+	font-family: 'Grandstander', cursive;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
 	vertical-align: baseline;
-	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
@@ -22,32 +80,147 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	}
+}
+
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-	}
+}
+
 body {
 	background: white;
 	line-height: 1;
 	color: black;
-	}
-ol, ul {
+}
+
+ol,
+ul {
 	list-style: none;
-	}
+}
+
 /* tables still need cellspacing="0" in the markup */
 table {
 	border-collapse: separate;
 	border-spacing: 0;
-	}
-caption, th, td {
+}
+
+caption,
+th,
+td {
 	font-weight: normal;
 	text-align: left;
-	}
+}
+
 /* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
+}
+
+blockquote,
+q {
+	quotes: """";
+}
+
+
+/* Nav */
+/* 
+header {
+background-color: silver;
+height: 15vh;
+position: fixed;
+top: 0;
+width: 100%;
+margin-bottom: 20%;
+}
+
+header h1 {
+	margin: 2% 2%;
+	font-size: 2.0rem;
+}
+
+header nav {
+	width: 100%;
+}
+header nav a {
+	font-size: 1.2rem;
+	padding: 0 1.4%;
+}
+
+
+header .main {
+	display: flex;
+	margin-top: 5%;
+}
+
+header .image {
+	margin: 0 2%;
+}
+
+header .image img{
+	width: 100%;
+} */
+
+header nav{
+	background-color: silver;
+	margin-bottom: 5%;
+	height: 15vh;
+}
+
+header nav h1 {
+	font-size: 2.0rem;
+	padding: 2% 2%;
+}
+
+header nav a { 
+	font-size: 1.2rem;
+	padding: 2%;
+}
+
+header .main  {
+	display: flex;
+}
+
+header .image img {
+	width: 90%;
+	margin: 0 5%;
+}
+
+header .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 2;
+}
+
+header .content h2 {
+	font-size: 3.0rem;
+}
+
+header .content a {
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 10px;
+	width: 15%;
+	font-size: 1.2rem;
+	background-color: silver;
+}
+
+header .content p {
+	border: 1px solid black;
+	width: 60%;
+	font-size: 1.2rem;
+}
+
+.mid-images {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-flow: row wrap; */
+	padding: 5% 1%;
+}
+.mid-images img {
+	padding: 2% 2%;
+	width: 25%;
+}
