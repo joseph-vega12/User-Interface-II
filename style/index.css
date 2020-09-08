@@ -9,9 +9,14 @@ html {
 	font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	font-family: 'Oswald', sans-serif;
 }
+
 p,
 a {
 	font-family: 'Grandstander', cursive;
@@ -131,7 +136,7 @@ header nav, a {
 	color: #eeeeee;
 }
 
-header nav{
+header nav {
 	background-color: #222831;
 	margin-bottom: 5%;
 	height: 15vh;
@@ -142,12 +147,12 @@ header nav h1 {
 	padding: 2% 2%;
 }
 
-header nav a { 
+header nav a {
 	font-size: 1.2rem;
 	padding: 2%;
 }
 
-header .main  {
+header .main {
 	display: flex;
 }
 
@@ -155,14 +160,16 @@ header .image img {
 	width: 90%;
 	margin: 0 5%;
 }
-header .content h2, a, p {
+
+header .content h2,
+a,
+p {
 	margin: 0.5% 0;
 }
 
 header .content {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction:  column;
 	line-height: 2;
 }
 
@@ -174,9 +181,9 @@ header .content a {
 	text-align: center;
 	border-radius: 10px;
 	width: 15%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	background-color: #222831;
-	;
+	padding: 0.5%;;
 }
 
 header .content p {
@@ -189,9 +196,11 @@ header .content p {
 	flex-wrap: wrap;
 	padding: 5% 1%;
 }
+
 .mid-images img {
 	padding: 2% 2%;
 	width: 25%;
+	height: 30vh;
 }
 
 footer {
@@ -223,11 +232,9 @@ footer a {
 	display: flex;
 	justify-content: center;
 }
+
 .social a {
-	background: none; 
+	background: none;
 	color: white;
 	height: 6vh;
 }
-
-
-
