@@ -245,11 +245,16 @@ footer a {
 		height: 10vh;
 	}
 
-	header .image {
-		display: none;
+	header .image img{
+		/* display: none; */
+		background-size: cover;
+		margin: 0 20%;
+		width: 300%;
 	}
 
 	header .content {
+		margin-top: 60%;
+		margin-right: 30%;
 		align-items: center;
 	}
 
@@ -264,20 +269,25 @@ footer a {
 
 	.mid-images img{
 		width: 50%;
+	}
 }
 
 @media (max-width: 500px){
 
 	header nav {
 		padding: 5% 2%;
-		height: 8vh;
+		height: 30vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	header nav h1{
-		display: none;
+		font-size: 2rem
 	}
-
+	
 	.mid-images img{
 		width: 100%;
 }
 
+}
